@@ -66,7 +66,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
 
   if (!customer) {
     return (
-      <div className="p-6bg-white rounded-lg shadow-lg flex flex-col justify-center items-center">
+      <div className="p-6 bg-white rounded-lg shadow-lg flex flex-col justify-center items-center">
         <h2 className="text-2xl font-semibold mb-2">No Customer Selected</h2>
         <p className="text-gray-700">
           Please select a customer to view their details.
